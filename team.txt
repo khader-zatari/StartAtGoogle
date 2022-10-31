@@ -1,0 +1,13 @@
+Team name is: Google
+name is tal position is GOAL_KEEPER grade is 71 tShirtNumber is 25
+name is Mohammad position is DEFENDER grade is 36 tShirtNumber is 56
+name is Mohammad position is DEFENDER grade is 84 tShirtNumber is 81
+name is Mohammad position is DEFENDER grade is 38 tShirtNumber is 65
+name is tal position is MIDFIELDER grade is 77 tShirtNumber is 70
+name is anas position is MIDFIELDER grade is 57 tShirtNumber is 32
+name is Rawya position is MIDFIELDER grade is 83 tShirtNumber is 1
+name is Mohammad position is ATTACKER grade is 66 tShirtNumber is 12
+name is Khader position is ATTACKER grade is 87 tShirtNumber is 15
+name is hello position is ATTACKER grade is 66 tShirtNumber is 49
+name is Yazan position is ATTACKER grade is 6 tShirtNumber is 37
+
