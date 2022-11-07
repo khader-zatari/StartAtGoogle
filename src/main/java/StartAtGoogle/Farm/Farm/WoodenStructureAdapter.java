@@ -15,7 +15,7 @@ public class WoodenStructureAdapter implements Animal {
 
     @Override
     public Animal mate(Animal partner) {
-        woodenStructures.replicate();
-        return null;
+
+        return new WoodenStructureAdapter(woodenStructures.replicate());
     }
 }
