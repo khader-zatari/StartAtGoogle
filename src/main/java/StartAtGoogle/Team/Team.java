@@ -4,9 +4,15 @@ package StartAtGoogle.Team;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.ThreadLocalRandom;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Team {
+    private static Logger logger = LogManager.getLogger(Team.class.getName());
+
     enum playerType {GOAL_KEEPER, DEFENDER, MIDFIELDER, ATTACKER}
 
     String name;
@@ -42,6 +48,7 @@ public class Team {
     }
 
     public static Team createTeam(String name, int goalKeeperCount, int defenderCount, int midFielderCount, int attackerCount) throws Exception {
+        loggerPrint();
         return new Team(name, goalKeeperCount, defenderCount, midFielderCount, attackerCount);
     }
 
@@ -109,6 +116,11 @@ public class Team {
             System.out.println(exception);
         }
 
+    }
+
+    private static void loggerPrint() {
+        logger.fatal("iam dead");
+        logger.trace("trace");
     }
 }
 
