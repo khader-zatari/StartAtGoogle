@@ -1,6 +1,6 @@
-package StartAtGoogle.AuthenticationProject.UserRepository;
+package StartAtGoogle.AuthenticationProjectLogger.UserRepository;
 
-import StartAtGoogle.AuthenticationProject.User;
+import StartAtGoogle.AuthenticationProjectLogger.User;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 import org.apache.logging.log4j.LogManager;

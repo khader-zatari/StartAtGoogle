@@ -1,7 +1,6 @@
-package StartAtGoogle.AuthenticationProject.Controllers;
+package StartAtGoogle.AuthenticationProjectLogger.Controllers;
 
-import StartAtGoogle.AuthenticationProject.Services.AuthenticationService;
-import StartAtGoogle.AuthenticationProject.UserRepository.UserRepository;
+import StartAtGoogle.AuthenticationProjectLogger.Services.AuthenticationService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

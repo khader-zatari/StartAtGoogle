@@ -1,6 +1,6 @@
-package StartAtGoogle.AuthenticationProject.Services;
+package StartAtGoogle.AuthenticationProjectLogger.Services;
 
-import StartAtGoogle.AuthenticationProject.UserRepository.UserRepository;
+import StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository;
 
 public class UserService {
 
