@@ -1,4 +1,4 @@
-package StartAtGoogle.AuthenticationProject;
+package StartAtGoogle.AuthenticationProjectLogger;
 
 public class User {
     private String name;

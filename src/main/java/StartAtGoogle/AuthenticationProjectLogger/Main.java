@@ -1,9 +1,7 @@
-package StartAtGoogle.AuthenticationProject;
+package StartAtGoogle.AuthenticationProjectLogger;
 
-import StartAtGoogle.AuthenticationProject.Controllers.AuthenticationController;
-import StartAtGoogle.AuthenticationProject.Controllers.UserController;
-
-import java.util.HashMap;
+import StartAtGoogle.AuthenticationProjectLogger.Controllers.AuthenticationController;
+import StartAtGoogle.AuthenticationProjectLogger.Controllers.UserController;
 
 public class Main {
     public static void main(String[] args) {

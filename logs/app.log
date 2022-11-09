@@ -1,76 +1,76 @@
-2022-11-09 13:56:20,688 ERROR   StartAtGoogle.AuthenticationProject.Services.AuthenticationService - the user has already registered
-2022-11-09 14:20:27,893 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is created
-2022-11-09 14:20:27,896 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is returned
-2022-11-09 14:20:27,897 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is returned
-2022-11-09 14:20:27,898 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start checkIfEmailExists function
-2022-11-09 14:20:27,898 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,907 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,907 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,909 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,909 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - email doesn't exist
-2022-11-09 14:20:27,915 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start createUser function
-2022-11-09 14:20:27,919 WARN    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - file is closed
-2022-11-09 14:20:27,919 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start checkIfEmailExists function
-2022-11-09 14:20:27,919 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - email does exist
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start checkIfUserExists function
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user does exist
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start GetIdByEmail function
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user id found
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start checkIfEmailExists function
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - email doesn't exist
-2022-11-09 14:40:06,321 INFO    StartAtGoogle.AuthenticationProject.Controllers.UserController - start UserController constructor
-2022-11-09 14:40:06,352 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is created
-2022-11-09 14:40:06,352 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is returned
-2022-11-09 14:40:06,353 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - user repository instance is returned
-2022-11-09 14:40:06,353 INFO    StartAtGoogle.AuthenticationProject.Controllers.UserController - return userController instance
-2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProject.Controllers.AuthenticationController - start createUser function
-2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProject.Services.AuthenticationService - start createUser function
-2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start checkIfEmailExists function
-2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:40:06,364 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:40:06,364 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - start fetchUser function
-2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - data is returned
-2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProject.UserRepository.UserRepository - email does exist
-2022-11-09 14:40:06,366 ERROR   StartAtGoogle.AuthenticationProject.Services.AuthenticationService - the user has already registered
+2022-11-09 13:56:20,688 ERROR   StartAtGoogle.AuthenticationProjectLogger.Services.AuthenticationService - the user has already registered
+2022-11-09 14:20:27,893 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is created
+2022-11-09 14:20:27,896 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is returned
+2022-11-09 14:20:27,897 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is returned
+2022-11-09 14:20:27,898 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start checkIfEmailExists function
+2022-11-09 14:20:27,898 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,907 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,907 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,908 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,909 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,909 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - email doesn't exist
+2022-11-09 14:20:27,915 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start createUser function
+2022-11-09 14:20:27,919 WARN    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - file is closed
+2022-11-09 14:20:27,919 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start checkIfEmailExists function
+2022-11-09 14:20:27,919 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,920 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - email does exist
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start checkIfUserExists function
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,921 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,922 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user does exist
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start GetIdByEmail function
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,923 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,924 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user id found
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start checkIfEmailExists function
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,925 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:20:27,926 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - email doesn't exist
+2022-11-09 14:40:06,321 INFO    StartAtGoogle.AuthenticationProjectLogger.Controllers.UserController - start UserController constructor
+2022-11-09 14:40:06,352 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is created
+2022-11-09 14:40:06,352 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is returned
+2022-11-09 14:40:06,353 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - user repository instance is returned
+2022-11-09 14:40:06,353 INFO    StartAtGoogle.AuthenticationProjectLogger.Controllers.UserController - return userController instance
+2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProjectLogger.Controllers.AuthenticationController - start createUser function
+2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProjectLogger.Services.AuthenticationService - start createUser function
+2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start checkIfEmailExists function
+2022-11-09 14:40:06,354 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:40:06,364 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:40:06,364 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - start fetchUser function
+2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - data is returned
+2022-11-09 14:40:06,365 INFO    StartAtGoogle.AuthenticationProjectLogger.UserRepository.UserRepository - email does exist
+2022-11-09 14:40:06,366 ERROR   StartAtGoogle.AuthenticationProjectLogger.Services.AuthenticationService - the user has already registered
