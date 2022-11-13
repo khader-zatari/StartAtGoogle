@@ -2,34 +2,34 @@ package StartAtGoogle.AuthenticationProjectSpringBoot.Services;
 
 import StartAtGoogle.AuthenticationProjectSpringBoot.User;
 import StartAtGoogle.AuthenticationProjectSpringBoot.UserRepository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.HashMap;
 import java.util.concurrent.ThreadLocalRandom;
 
+@Service
 public class AuthenticationService {
-    private static AuthenticationService authenticationService;
-    private static UserRepository userRepository;
+    @Autowired
+    private  UserRepository userRepository;
 
-    private AuthenticationService() {
-        userRepository = UserRepository.getInstance();
+    public AuthenticationService() {
+
     }
 
-    public static synchronized AuthenticationService getInstance() {
-        if (authenticationService == null) {
-            authenticationService = new AuthenticationService();
-        }
-        return authenticationService;
-    }
 
     public static HashMap<String, String> userTokens = new HashMap<>();
 
 
-    public void createUser(String name, String email, String password) {
+
+    public User createUser(String name, String email, String password) {
         if (userRepository.checkIfEmailExists(email)) {
             throw new IllegalArgumentException("the user has already registered");
         }
         User user = new User(name, email, password);
         userRepository.createUser(user);
+        return user;
     }
 
     public HashMap<String, String> logIn(String email, String password) {
@@ -38,6 +38,7 @@ public class AuthenticationService {
         if (userRepository.checkIfUserExists(email, password)) {
             id = userRepository.getIdByEmail(email);
         } else {
+            System.out.println("iam here");
             throw new IllegalArgumentException("the user is not valid");
         }
         if (userTokens.containsKey(id)) {

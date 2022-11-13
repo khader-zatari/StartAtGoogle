@@ -1,23 +1,19 @@
 package StartAtGoogle.AuthenticationProjectSpringBoot.Services;
 
 import StartAtGoogle.AuthenticationProjectSpringBoot.UserRepository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService {
 
-    private static UserService userService;
-    private static UserRepository userRepository;
+    @Autowired
+    private  UserRepository userRepository;
 
-    private UserService() {
-        userRepository = UserRepository.getInstance();
+    public UserService() {
+
     }
 
-
-    public static synchronized UserService getInstance() {
-        if (userService == null) {
-            userService = new UserService();
-        }
-        return userService;
-    }
 
     public void updateEmail(String id, String email) {
         userRepository.updateEmail(id, email);
