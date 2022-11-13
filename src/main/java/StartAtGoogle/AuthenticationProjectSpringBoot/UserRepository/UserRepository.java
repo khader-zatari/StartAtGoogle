@@ -3,28 +3,24 @@ package StartAtGoogle.AuthenticationProjectSpringBoot.UserRepository;
 import StartAtGoogle.AuthenticationProjectSpringBoot.User;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
+import org.springframework.stereotype.Repository;
+
 import java.io.*;
 import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 
-
+@Repository
 public class UserRepository {
     //    private static final String path = "src/main/java/AuthenticationProject/UserRepository/users/";
-    private static final String path = "../AuthenticationProject/src/main/java/AuthenticationProject/UserRepository/users/";
+//    private static final String path = "../AuthenticationProject/src/main/java/AuthenticationProject/UserRepository/users/";
+    private static final String path = "/Users/khaderzatari/Desktop/StartAtGoogle/src/main/java/StartAtGoogle/AuthenticationProjectSpringBoot/UserRepository/users/";
     private static final Gson gson = new Gson();
-    private static UserRepository userRepository;
 
-    private UserRepository() {
+    public UserRepository() {
     }
 
-    public static synchronized UserRepository getInstance() {
-        if (userRepository == null) {
-            userRepository = new UserRepository();
-        }
-        return userRepository;
-    }
 
     private User fetchUser(String filePath) {
         JsonReader reader = null;

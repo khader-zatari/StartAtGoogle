@@ -2,18 +2,12 @@ package StartAtGoogle.AuthenticationProjectSpringBoot;
 
 import StartAtGoogle.AuthenticationProjectSpringBoot.Controllers.AuthenticationController;
 import StartAtGoogle.AuthenticationProjectSpringBoot.Controllers.UserController;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-
-        UserController userController = UserController.getInstance();
-        AuthenticationController authenticationController = AuthenticationController.getInstance();
-
-
-        //authenticationController.createUser("Leon Shapiro", "leon@email.com", "leon1234");
-        //Tests.testUpdateEmail();
-        //Tests.testUpdatePassword();
-        //Tests.testDeleteUser();
-
+        SpringApplication.run(Main.class, args);
     }
 }
