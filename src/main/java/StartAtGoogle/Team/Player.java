@@ -21,6 +21,9 @@ public class Player {
     List<String> names2 = Arrays.asList("asaf", "tal", "telaviv", "anas", "hello", "wow");
 
     public Player(Team.playerType position, int tShirtNumber) {
+        if (tShirtNumber < 0) {
+            throw new IllegalArgumentException("the Tshirt Number should be positive");
+        }
         NameGenerator nameGenerator = new NameGenerator(names1);
         NameGenerator nameGenerator2 = new NameGenerator(names2);
         this.name = Math.random() > 0.5 ? nameGenerator.generateRandomName() : nameGenerator2.generateRandomName();
@@ -40,5 +43,21 @@ public class Player {
     @Override
     public String toString() {
         return "name is " + this.name + ", Position is " + this.position + ", Grade is " + this.grade + ", Tshirt Number is " + this.tShirtNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Team.playerType getPosition() {
+        return position;
+    }
+
+    public int gettShirtNumber() {
+        return tShirtNumber;
+    }
+
+    public int getGrade() {
+        return grade;
     }
 }
