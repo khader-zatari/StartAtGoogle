@@ -24,6 +24,7 @@ public class UserController {
 
     }
 
+
     @RequestMapping(value = "/updateUserName", method = RequestMethod.PUT)
     public ResponseEntity<String> updateUserName(@RequestParam String id, @RequestHeader String token, @RequestBody Map<String, Object> userName) {
         if (authenticateUser(id, token)) {

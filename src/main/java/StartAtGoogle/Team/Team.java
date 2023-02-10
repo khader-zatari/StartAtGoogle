@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class Team {
     private static Logger logger = LogManager.getLogger(Team.class.getName());
 
-    enum playerType {GOAL_KEEPER, DEFENDER, MIDFIELDER, ATTACKER}
+    public enum playerType {GOAL_KEEPER, DEFENDER, MIDFIELDER, ATTACKER}
 
     String name;
     int goalKeeperCount;
@@ -52,7 +52,7 @@ public class Team {
         return new Team(name, goalKeeperCount, defenderCount, midFielderCount, attackerCount);
     }
 
-    public void checkIfTeam(int goalKeeperCount, int defenderCount, int midFielderCount, int attackerCount) throws Exception {
+    public static void checkIfTeam(int goalKeeperCount, int defenderCount, int midFielderCount, int attackerCount) throws Exception {
 
         int teamCount = goalKeeperCount + defenderCount + midFielderCount + attackerCount;
 
@@ -121,6 +121,10 @@ public class Team {
     private static void loggerPrint() {
         logger.fatal("iam dead");
         logger.trace("trace");
+    }
+
+    public List<Player> getTeam() {
+        return team;
     }
 }
 
